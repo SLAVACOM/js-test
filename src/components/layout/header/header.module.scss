@@ -1,0 +1,6 @@
+@import 'src/styles/mixins';
+
+.header{
+    @include flex-horizontal-center;
+    gap: 20px;    
+}
